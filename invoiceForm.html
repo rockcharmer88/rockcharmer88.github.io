@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Form</title>
+<style>
+ body {display: flex; justify-content: center;}
+ table {border-collapse: collapse}
+ table, th, td {border: thin solid black;}
+ th, td {padding: 10px}
+ thead th {
+  background-color: #0d8046;
+  color: white;
+ }
+
+tbody th {
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+tbody th em {
+  font-weight: normal;
+}
+td {
+  background-color: white;
+  text-align: center;
+}
+caption {
+  font-size: 2em;
+  padding: 15px;
+  color: rgb(91, 10, 91)
+}
+</style>
+</head> 
+
+<body>
+<table>
+  <caption>Customer Order Form</caption>
+  <thead>
+    <tr>
+      <th colspan="5">Order Number</th>
+    </tr>
+    <tr>
+      <th colspan="5">Order Date</th>
+    </tr>
+    <tr>
+      <th colspan="2">Product Name</th>
+      <th>Color</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><th>Dairy<br><em>(milk, yogurt, cheese)</em></th><td>2-3</td><td>3-4</td></tr>
+    <tr><th>Meat and Beans<br><em>(beef, poultry, fish, beans)</em></th><td>2-3</td><td>5-6</td></tr>
+    <tr><th>Fruits</th><td>2-4</td><td>2-4</td></tr>
+    <tr><th>Vegetables</th><td>3-5</td><td>1-2</td></tr>
+    <tr><th>Grains<br><em>(bread, donuts, pop tarts)</em></th><td>1-2</td><td>3-5</td></tr>
+    </tbody>
+</table>
+</body>
+</html>
