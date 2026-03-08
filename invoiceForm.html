@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Invoice Form</title>
+<meta charset="utf-8">
+<meta name="author" content="John Dean">
+<title>Famous Speeches</title>
+
 <style>
- .grid {
-  display: grid; 
-  grid-template-columns: 40% 20% 20% 20%;
-  grid-template-rows: repeat(10, 3em);
- }
- .grid > header:first-of-type {
-  grid-column: 1/ span 4;
-  font-size: xx-large;
- }
- .grid > *:nth-child(n+2) {
-  outline: 1px solid darkblue;
- }
- .grid > span {
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  grid-column: span 4;
- }
- .grid > * {
-  border: 2px solid darkblue;
-  padding: 5px;
- }
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.grid > header:first-of-type {
+    grid-column: 1 / span 4;
+    font-size: xx-large;
+    color: blue;
+}
+
+.grid > header:nth-of-type(n + 2) {
+    font-size: x-large;
+    color: blue;
+    background-color: moccasin;
+}
+
+.mlk {
+    grid-row: 4 / span 2;
+}
+
+.grid > * {
+    padding: 8px;
+    text-align: center;
+}
+
+.grid > *:nth-child(n + 2) {
+    outline: 1px solid green;
+}
+
+.grid > span {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 </style>
 </head> 
 
