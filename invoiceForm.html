@@ -12,12 +12,15 @@
   text-align: left;
   }
  th, td {padding: 15px}
- td:nth-child(3), th:nth-child(3) {width: 120px}
+ td:nth-child(3), th:nth-child(4) {width: 120px}
 caption {
   font-size: 2em;
   font-weight: bold;
   padding: 15px;
   color: rgb(91, 10, 91)
+}
+.solid td {
+  background-color: black;
 }
 </style>
 </head> 
@@ -44,7 +47,7 @@ caption {
     <tr><td colspan="2"></td><td></td><td></td><td></td></tr>
     <tr><td colspan="2"></td><td></td><td></td><td></td></tr>
     <tr><td colspan="2"></td><td></td><td></td><td></td></tr>
-    <tr><td colspan="5"></td></tr>
+    <tr div="solid"><td colspan="5"></td></tr>
     <tr><td colspan="5">Subtotal</td></tr>
     <tr><td colspan="5">Tax</td></tr>
     <tr><td colspan="4">Shipping</td><td>5.95</td></tr>
