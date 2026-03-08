@@ -5,29 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Invoice Form</title>
 <style>
- body {
-  display: flex; 
-  justify-content: left;
-  font-family: 'Times New Roman', Times, serif;
-  }
- table {border-collapse: collapse; width: 40%;}
- table, th, td {
-  border: 2px solid darkblue;
-  text-align: left;
-  }
- th, td {
-    text-align: left;
-    padding: 10px;
-    border-bottom-width: medium;
-    font-size: 1.2em;
-    }
- tr:nth-of-type(5) {background-color: black;}
-caption {
-  font-size: 2em;
-  font-weight: bold;
-  padding: 15px;
-  color: rgb(91, 10, 91)
-}
+ .grid {
+  display: inline-grid;
+  grid-template-columns: repeat(4, auto);
+ }
 </style>
 </head> 
 
