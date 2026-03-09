@@ -27,25 +27,14 @@ body {
     text-align: center;
     justify-content: center;
   }
-  caption {
-    font-weight: bold;
-    font-size: 2em;
-    padding: 10px;
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat (7, 20%)
   }
   .calendar > header:first-of-type{
     font-size: 1.5em;
     font-weight: bold;
   }
-  .calendar {
-    display: grid;
-    grid-template-columns: (7, 20%)
-  }
-  thead, tbody {
-    font-size: 1.5em;
-  }
-  .days {
-    grid-column: 1 / span 4;
-}
 </style>
 </head> 
 
