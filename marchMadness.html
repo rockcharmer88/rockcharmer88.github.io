@@ -30,7 +30,7 @@ body {
   }
   .calendar {
     display: grid;
-    grid-template-columns: repeat(7, 5%);
+    grid-template-columns: repeat(7, 1fr);
     width: 100%;
   }
   .calendar > div:first-of-type{
@@ -39,9 +39,9 @@ body {
     font-weight: bold;
   }
 
-  .calendar > nth-of-type(n + 24) {
-    color: gold;
-  }  
+  .calendar:nth-of-type(n+17){
+    background:gold;
+  }
   
   .grid > div:last-of-type {
     font-size: 1em;
