@@ -17,11 +17,11 @@ body {
     grid-template-rows: 200px;
     row-gap: none;
   }
-  .grid > header:first-of-type {
+  .grid > div:first-of-type {
     font-size: 3em;
     font-weight: bold;
   }
-  .grid > header {
+  .grid > div {
     display: flex;
     flex-direction: column;
     outline: 1px solid black;
@@ -33,16 +33,16 @@ body {
     grid-template-columns: repeat(7);
     width: 100%;
   }
-  .calendar > header:first-of-type{
+  .calendar > div:first-of-type{
     grid-column: 1 / span 7;
     font-size: 1.5em;
     font-weight: bold;
   }
-  .grid > header:last-of-type {
+  .grid > div:last-of-type {
     font-size: 1em;
   }
-  .grid > header:nth-of-type(1), 
-  .grid > header:nth-of-type(3) {
+  .grid > div:nth-of-type(1), 
+  .grid > div:nth-of-type(3) {
     padding: 20px;
   }
   h1 {
@@ -54,7 +54,6 @@ body {
 <header class="grid">
   <div>MARCH<br>MADNESS</div>
   <div class="calendar">
-  <header></header>
   <h2>March</h2>
     <span>Sun</span>
     <span>Mon</span>
@@ -69,7 +68,6 @@ body {
     <span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span>
     <span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span>
     <span>28</span><span>29</span><span>30</span><span>31</span><span></span><span></span><span></span>
-    </header>
   </div>
   <div>
     <p>
