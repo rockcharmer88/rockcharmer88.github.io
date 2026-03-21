@@ -23,6 +23,21 @@
     margin: 20px 0;
     border: 6px solid black;
   }
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    column-gap: none;
+    grid-template-rows: 200px;
+    row-gap: none;
+  }
+  .grid :first-of-type {
+    border: 6px solid black;
+    span: 2;
+  }
   </style>
   </head>
 <body>
@@ -38,7 +53,7 @@
     <a href="site.html">Stitches</a>
     <a href="site.html">Beginner Projects</a>
   </nav>
-  <main>
+  <main class="grid">
     <div>Main Intro Paragraph</div>
     <div>Area - Not sure of Content Yet</div>
     <div>
