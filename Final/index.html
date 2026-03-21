@@ -23,20 +23,16 @@
     margin: 20px 0;
     border: 6px solid black;
   }
-  body {
-    display: flex;
-    justify-content: center;
-  }
   .grid {
     display: grid;
     grid-template-columns: 300px 300px;
-    column-gap: none;
+    column-gap: 0;
     grid-template-rows: 200px;
-    row-gap: none;
+    row-gap: 0;
   }
-  .grid :first-of-type {
+  .grid > div:first-of-type {
     border: 6px solid black;
-    span: 2;
+    grid-column: 1 / span 2;
   }
   </style>
   </head>
