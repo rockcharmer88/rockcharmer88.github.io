@@ -92,6 +92,20 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.nav-link {
+  display: inline-block;
+  color: white;
+  background-color: #04AA6D;
+  padding: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+}
+
+.nav-link:hover {
+  background-color: #3e8e41;
+}
   </style>
   </head>
 <body>
@@ -99,7 +113,7 @@
       <img src="images/HookLearnLogo.png" alt="logo">
   </header>
   <nav>
-    <a href="index.html">Home</a>
+    <a class="nav-link"href="index.html">Home</a>
     <a href="whatIsCrochet.html">What is crochet?</a>
     <div class="dropdown">
       <button class="dropbtn">Tools</button>
@@ -109,9 +123,15 @@
           <a href="#">Extras</a>
         </div>
     </div>
-    <a href="site.html">Tools</a> <!-- This needs to be a drop down not a link -->
     <a href="site.html">Getting Started</a>
-    <a href="site.html">Stitches</a>
+    <div class="dropdown">
+      <button class="dropbtn">Stitches</button>
+        <div class="dropdown-content">
+          <a href="#">Chain</a>
+          <a href="#">Single Crochet</a>
+          <a href="#">Double Crochet</a>
+        </div>
+    </div>
     <a href="site.html">Beginner Projects</a>
   </nav>
   <main class="grid">
