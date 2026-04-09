@@ -189,7 +189,17 @@ header, footer {
   background-color: #4c8f7f;
 }
 
-.welcome {
+.what-grid {
+  display: grid;
+  grid-template-columns: 400px;
+  column-gap: 100px;
+  row-gap: 50px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-welcome {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
