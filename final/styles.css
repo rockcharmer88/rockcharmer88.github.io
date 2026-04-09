@@ -92,7 +92,7 @@ nav {
   margin: 0 auto;
 }
 
-.hooks-img {
+.grid .hooks-img {
   width: 500px;
   height: auto;
   display: block;
