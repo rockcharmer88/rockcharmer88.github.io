@@ -29,7 +29,7 @@ nav {
   text-align: center;
 }
   
-.grid > div:first-of-type {
+.grid, .what-grid > div:first-of-type {
   grid-column: 1 / span 2;
 }
     
@@ -111,10 +111,6 @@ nav {
   padding: 20px;
   justify-content: center;
   align-items: center;
-}
-
-.what-grid > div:first-of-type {
-  grid-column: 1 / span 2;
 }
 
 .what-welcome {
