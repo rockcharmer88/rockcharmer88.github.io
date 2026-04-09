@@ -113,7 +113,7 @@ nav {
   align-items: center;
 }
 
-.what-grid > h2, p {
+.what-grid > div:first-of-type {
   grid-column: 1 / span 2;
 }
 
