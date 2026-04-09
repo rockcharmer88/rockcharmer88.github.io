@@ -184,3 +184,7 @@ table {
 .hooks-welcome > h2 {
     color: #C97A7E;
   }
+
+caption {
+  color: #C97A7E;
+}
