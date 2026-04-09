@@ -93,11 +93,11 @@ nav {
 .grid > div:first-of-type, 
 .what-grid > div:first-of-type, 
 .hooks-grid > div:first-of-type,
-.yarn-grid > div:first-of-type {
+.yarn-grid > div:first-of-type{
   grid-column: 1 / span 2;
 }
 
-.yarn-grid > div:nth-child(2) {
+.yarn-grid > div:nth-child(2, 3) {
   grid-column: 1 / span 2;
 }
     
