@@ -39,6 +39,13 @@ nav {
   display: block;
   margin: 0 auto;
 }
+
+.what-grid img {
+    width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
   
 .dropbtn {
   background-color: #C97A7E;
