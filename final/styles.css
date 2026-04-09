@@ -113,6 +113,10 @@ nav {
   align-items: center;
 }
 
+.what-grid > h2, p {
+  grid-column: 1 / span 2;
+}
+
 .what-welcome {
   max-width: 400px;
   margin: 0 auto;
