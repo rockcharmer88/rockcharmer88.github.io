@@ -88,7 +88,7 @@ nav {
 
 .hooks-grid {
   display: grid;
-  grid-template-columns: 500px;
+  grid-template-columns: 600px;
   column-gap: 100px;
   row-gap: 50px;
   padding: 20px;
@@ -107,14 +107,6 @@ nav {
     
 .grid img, .what-grid img {
   width: 350px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.grid .hooks-img {
-  max-width: 400px;
-  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
