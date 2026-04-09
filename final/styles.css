@@ -33,7 +33,7 @@ nav {
   grid-column: 1 / span 2;
 }
     
-.grid img {
+.grid img, .what-grid img {
   width: 350px;
   height: auto;
   display: block;
