@@ -15,26 +15,26 @@ nav {
     margin: 20px 0;
   }
     
-  .grid {
-    display: grid;
-    grid-template-columns: 350px 400px;
-    column-gap: 100px;
-    row-gap: 50px;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-  }
+.grid {
+  display: grid;
+  grid-template-columns: 350px 400px;
+  column-gap: 100px;
+  row-gap: 50px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
 
-  .grid > div {
-    text-align: center;
-  }
+.grid > div {
+  text-align: center;
+}
   
-  .grid > div:first-of-type {
-    grid-column: 1 / span 2;
-  }
+.grid > div:first-of-type {
+  grid-column: 1 / span 2;
+}
     
-  .grid img {
-    width: 350px;
+.grid img {
+  width: 350px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -119,9 +119,12 @@ nav {
   text-align: center;
 }
 
-.paragraph > p{
+.paragraph {
   max-width: 400px;
   margin: 0 auto;
+}
+
+.paragraph > p{
   text-align: left;
   text-indent: 40px;
 }
