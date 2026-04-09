@@ -15,7 +15,7 @@ nav {
     margin: 20px 0;
   }
     
-  .grid {
+  .index-grid {
     display: grid;
     grid-template-columns: 350px 400px;
     column-gap: 100px;
@@ -33,14 +33,7 @@ nav {
     grid-column: 1 / span 2;
   }
     
-  .grid img {
-    width: 350px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.what-grid img {
+  .grid img, .what-grid img {
     width: 350px;
   height: auto;
   display: block;
