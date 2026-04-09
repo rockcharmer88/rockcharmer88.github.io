@@ -66,9 +66,19 @@ nav {
     margin: 20px 0;
   }
     
-.grid {
+.grid, .hooks-grid {
   display: grid;
   grid-template-columns: 350px 400px;
+  column-gap: 100px;
+  row-gap: 50px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-grid {
+  display: grid;
+  grid-template-columns: 400px;
   column-gap: 100px;
   row-gap: 50px;
   padding: 20px;
@@ -85,12 +95,14 @@ nav {
   grid-column: 1 / span 2;
 }
     
-.grid img, {
+.grid img, .what-grid img {
   width: 350px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
+
+
 
 .welcome {
   max-width: 400px;
@@ -116,15 +128,6 @@ nav {
   padding-left: 25px; 
 }
 
-.what-grid {
-  display: grid;
-  grid-template-columns: 400px;
-  column-gap: 100px;
-  row-gap: 50px;
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
-}
 
 .paragraph {
   max-width: 400px;
