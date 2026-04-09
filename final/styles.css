@@ -190,3 +190,9 @@ caption {
   font-size: 1.5em;
   font-weight: bold;
 }
+
+caption > p{
+  color: black;
+  font-size: 1em;
+  font-weight: normal;
+}
