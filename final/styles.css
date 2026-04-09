@@ -102,7 +102,12 @@ nav {
   margin: 0 auto;
 }
 
-
+.hooks-grid img {
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 .welcome {
   max-width: 400px;
