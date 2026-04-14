@@ -249,3 +249,7 @@ caption > p{
   text-align: center;
   margin-top: 10px;
 }
+
+.tool-card {
+  cursor: pointer;
+}
