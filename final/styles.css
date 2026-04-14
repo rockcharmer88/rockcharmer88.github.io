@@ -103,8 +103,7 @@ nav {
 }
     
 .grid img, 
-.what-grid img, 
-.hooks-grid img {
+.what-grid img {
   width: 350px;
   height: auto;
   display: block;
