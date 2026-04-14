@@ -226,11 +226,6 @@ caption > p{
   margin: 0 auto 15px;
 }
 
-.tool-card h2 {
-  color: #C97A7E;
-  margin-bottom: 10px;
-}
-
 .tool-info {
   opacity: 0;
   max-height: 0;
@@ -238,7 +233,11 @@ caption > p{
   transition: opacity 0.3s ease, max-height 0.3s ease;
 }
 
-.tool-card:hover .tool-info {
-  opacity: 1;
-  max-height: 200px;
+.tool-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
