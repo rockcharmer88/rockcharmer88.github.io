@@ -97,8 +97,7 @@ nav {
   grid-column: 1 / span 2;
 }
 
-.yarn-grid > div:nth-child(2), 
-.yarn-grid > div:nth-child(3) {
+.span-two-columns {
   grid-column: 1 / span 2;
 }
     
@@ -171,7 +170,8 @@ table {
   padding: 12px;
 }
 
-.hooks-welcome > h1, h2 {
+.hooks-welcome > h1, 
+.hooks-welcome > h2 {
     text-align: center;
   }
 
@@ -211,6 +211,7 @@ caption > p{
   text-align: center;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .tool-card img {
@@ -242,8 +243,4 @@ caption > p{
   color: #4c8f7f;
   text-align: center;
   margin-top: 10px;
-}
-
-.tool-card {
-  cursor: pointer;
 }
