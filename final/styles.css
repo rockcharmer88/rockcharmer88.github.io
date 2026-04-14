@@ -242,3 +242,10 @@ caption > p{
   opacity: 1;
   max-height: 200px;
 }
+
+.hover-note {
+  font-style: italic;
+  color: #4c8f7f;
+  text-align: center;
+  margin-top: 10px;
+}
