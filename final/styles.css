@@ -244,3 +244,9 @@ caption > p{
   text-align: center;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #fdf6f7;
+  }
+}
