@@ -247,6 +247,40 @@ caption > p{
 
 @media screen and (max-width: 768px) {
   body {
-    background-color: #651521;
+    background-color: lightyellow;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  .grid,
+  .what-grid,
+  .tools-grid {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .grid > div:first-of-type,
+  .what-grid > div:first-of-type,
+  .tools-grid > div:first-of-type {
+    grid-column: auto;
+  }
+
+  header img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .grid img,
+  .what-grid img,
+  .tool-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
   }
 }
