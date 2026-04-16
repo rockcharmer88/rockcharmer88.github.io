@@ -245,10 +245,67 @@ caption > p{
   margin-top: 10px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+	body { 
+	    font-size: 1.5em;
+	}
+
+header img {
+  max-width: 90%;
+  width: auto;
+  height: auto;
+ }
+
+  .grid img,
+  .what-grid img,
+  .tool-card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .nav-link,
+  .dropbtn {
+    padding: 12px 12px; 
+    font-size: 14px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+  .grid,
+  .what-grid,
+  .tools-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .grid > div:first-of-type,
+  .what-grid > div:first-of-type,
+  .tools-grid > div:first-of-type {
+    grid-column: auto; 
+  }
+
+  footer {
+  text-align: center;
+  line-height: 1.5;
+  max-width: 300px;
+  margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
   body {
     background-color: lightyellow;
-  }
+    font-size: 1.2em;  
+    }
 
   header img {
   max-width: 90%;
