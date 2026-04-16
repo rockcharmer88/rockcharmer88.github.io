@@ -269,6 +269,12 @@ caption > p{
     justify-content: center;
   }
 
+  .nav-link,
+  .dropbtn {
+    padding: 8px 10px; 
+    font-size: 14px;    
+  }
+
   table {
     width: 100%;
     font-size: 14px;
