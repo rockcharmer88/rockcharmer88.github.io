@@ -245,9 +245,21 @@ caption > p{
   margin-top: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and(max-width: 768px) {
   body {
     background-color: lightyellow;
+  }
+
+  header img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .grid img,
+  .what-grid img,
+  .tool-card img {
+    max-width: 100%;
+    height: 100%;
   }
 
   nav {
@@ -255,38 +267,11 @@ caption > p{
     justify-content: center;
   }
 
-  .grid,
-  .what-grid,
-  .tools-grid {
-    grid-template-columns: 1fr;
-    row-gap: 30px;
-  }
 
-  .grid > div:first-of-type,
-  .what-grid > div:first-of-type,
-  .tools-grid > div:first-of-type {
-    grid-column: auto;
-  }
 
-  .welcome,
-  .what-welcome,
-  .hooks-welcome,
-  .paragraph {
-    max-width: 90%;
-    text-align: center;
-  }
+  
 
-  header img {
-    max-width: 90%;
-    height: auto;
-  }
-
-  .grid img,
-  .what-grid img,
-  .tool-card img {
-    max-width: 100%;
-    height: auto;
-  }
+  
 
   table {
     width: 100%;
