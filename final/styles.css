@@ -250,7 +250,12 @@ caption > p{
     background-color: lightyellow;
   }
 
-  header img, 
+  header img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+ }
+
   .grid img,
   .what-grid img,
   .tool-card img {
