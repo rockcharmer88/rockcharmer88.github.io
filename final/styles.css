@@ -254,7 +254,8 @@ caption > p{
   .grid img,
   .what-grid img,
   .tool-card img {
-    max-width: auto;
+    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 
