@@ -292,4 +292,10 @@ caption > p{
   .tools-grid > div:first-of-type {
     grid-column: auto; 
   }
+
+  footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 }
