@@ -294,8 +294,9 @@ caption > p{
   }
 
   footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
+  text-align: center;
+  line-height: 1.5;
+  max-width: 300px;
+  margin: 0 auto;
+}
 }
