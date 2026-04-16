@@ -267,12 +267,14 @@ caption > p{
   nav {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 4px;
+    margin: 10px 0;
   }
 
   .nav-link,
   .dropbtn {
     padding: 4px 4px; 
-    font-size: 10px;    
+    font-size: 10px;
   }
 
   table {
