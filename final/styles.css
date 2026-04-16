@@ -267,8 +267,19 @@ caption > p{
     justify-content: center;
   }
 
-table {
+  table {
     width: 100%;
     font-size: 14px;
+  }
+  .grid,
+  .what-grid,
+  .tools-grid {
+    grid-template-columns: 1fr;  /* stack everything */
+  }
+
+  .grid > div:first-of-type,
+  .what-grid > div:first-of-type,
+  .tools-grid > div:first-of-type {
+    grid-column: auto; /* remove span */
   }
 }
