@@ -267,7 +267,7 @@ caption > p{
   nav {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4px;
+    gap: 10px;
     margin: 10px 0;
   }
 
