@@ -250,7 +250,7 @@ caption > p{
     background-color: lightyellow;
   }
 
-  header img 
+  header img, 
   .grid img,
   .what-grid img,
   .tool-card img {
