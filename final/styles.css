@@ -86,6 +86,12 @@ nav {
   align-items: center;
 }
 
+.yarn-grid > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .yarn-grid img {
   width: 300px;
   height: auto;
