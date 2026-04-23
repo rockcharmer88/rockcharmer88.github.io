@@ -1,13 +1,27 @@
 let form = document.getElementById("contactForm");
 
 if (form) {
-  form.addEventListener("submit", function() {
+  form.addEventListener("submit", function(event) {
 
-    let name = document.getElementById("name").value;
+    event.preventDefault();
 
-    let message = "Thanks, " + name + "! Your message has been sent.";
+    let formData = new FormData(form);
 
-    document.getElementById("formMessage").textContent = message;
+    fetch("https://formsubmit.co/ajax/el/nifaso", {
+      method: "POST",
+      body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("formMessage").textContent =
+        "Thanks! Your message has been sent.";
+
+      form.reset();
+    })
+    .catch(error => {
+      document.getElementById("formMessage").textContent =
+        "Oops! Something went wrong.";
+    });
 
   });
 }

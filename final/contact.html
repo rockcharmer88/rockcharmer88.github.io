@@ -46,20 +46,19 @@
       Fill out the form below and I’ll get back to you!
     </p>
   </div>
-  <form id="contactForm" class="contact-form" action="https://formsubmit.co/el/nifaso" method="POST">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="Enter your name" required>
+  <form id="contactForm" class="contact-form">
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="Enter your email" required>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-    <label for="message">Message:</label>
-    <textarea id="message" rows="5" name="Write your message..." required></textarea>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-    <button type="submit">Send Message</button>
-  </form>
+  <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
 
-  <p id="formMessage"></p>
+  <button type="submit">Send Message</button>
+
+</form>
+
+<p id="formMessage"></p>
 </main>
 
 <footer>
