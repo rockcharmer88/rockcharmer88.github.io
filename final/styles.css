@@ -85,6 +85,12 @@ nav {
   justify-content: center;
   align-items: center;
 }
+.yarn-grid img {
+  width: 200px;
+  height: auto;
+  display: grid;
+  margin: 0 auto;
+}
 
 .what-grid {
   display: grid;
@@ -112,8 +118,7 @@ nav {
 }
     
 .grid img, 
-.what-grid img 
-.yarn-grid img{
+.what-grid img {
   width: 350px;
   height: auto;
   display: block;
