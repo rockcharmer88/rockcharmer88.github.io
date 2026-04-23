@@ -1,7 +1,13 @@
 let form = document.getElementById("contactForm");
-form.addEventListener("submit", function(event) {
-  let name = document.getElementById("name").value;
-  let message = "Thanks, " + name + "! Your message has been received.";
-  document.getElementById("formMessage").textContent = message;
-  form.reset();
-});
+
+if (form) {
+  form.addEventListener("submit", function() {
+
+    let name = document.getElementById("name").value;
+
+    let message = "Thanks, " + name + "! Your message has been sent.";
+
+    document.getElementById("formMessage").textContent = message;
+
+  });
+}
