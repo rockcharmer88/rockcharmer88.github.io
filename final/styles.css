@@ -112,7 +112,8 @@ nav {
 }
     
 .grid img, 
-.what-grid img {
+.what-grid img 
+.yarn-grid img{
   width: 350px;
   height: auto;
   display: block;
