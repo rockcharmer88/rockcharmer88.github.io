@@ -76,6 +76,16 @@ nav {
   align-items: center;
 }
 
+.yarn-grid {
+  display: grid;
+  grid-template-columns: 350px 400px;
+  column-gap: 100px;
+  row-gap: 50px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
 .what-grid {
   display: grid;
   grid-template-columns: 400px 400px;
