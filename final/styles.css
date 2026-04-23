@@ -78,7 +78,7 @@ nav {
 
 .yarn-grid {
   display: grid;
-  grid-template-columns: 350px 400px;
+  grid-template-columns: 450px 450px;
   column-gap: 100px;
   row-gap: 50px;
   padding: 20px;
