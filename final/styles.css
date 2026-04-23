@@ -321,6 +321,13 @@ caption > p{
   color: #C97A7E;
 }
 
+#formMessage {
+  margin-top: 15px;
+  color: #4c8f7f;
+  font-weight: bold;
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 1em;
