@@ -7,7 +7,7 @@ if (form) {
 
     let formData = new FormData(form);
 
-    fetch("https://formsubmit.co/ajax/el/nifaso", {
+    fetch("https://formsubmit.co/ajax/brittany.best1@outlook.com", {
       method: "POST",
       body: formData
     })
