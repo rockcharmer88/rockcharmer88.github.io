@@ -89,11 +89,11 @@ nav {
 .yarn-grid > div:last-child {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
 }
 
 .yarn-grid img {
-  width: 300px;
+  width: 400px;
   height: auto;
   display: grid;
   margin: 0 auto;
