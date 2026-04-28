@@ -2,65 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Brittany Best">
-  <title>Hook & Learn</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beginner Projects - Hook & Learn</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="scripts.js"></script>
+  <script src="scripts.js" defer></script>
 </head>
-  
+
 <body>
   <header>
-      <img src="images/HookLearnLogo.png" alt="logo">
+    <img src="images/HookLearnLogo.png" alt="Hook & Learn logo">
   </header>
+
   <nav>
     <a class="nav-link" href="index.html">Home</a>
     <a class="nav-link" href="whatIsCrochet.html">What is crochet?</a>
+
     <div class="dropdown">
       <button class="dropbtn">Tools</button>
-        <div class="dropdown-content">
-          <a href="crochetHooks.html">Hooks</a>
-          <a href="yarn.html">Yarn</a>
-          <a href="extras.html">Extras</a>
-        </div>
+      <div class="dropdown-content">
+        <a href="crochetHooks.html">Hooks</a>
+        <a href="yarn.html">Yarn</a>
+        <a href="extras.html">Extras</a>
+      </div>
     </div>
+
     <div class="dropdown">
       <button class="dropbtn">Stitches</button>
-        <div class="dropdown-content">
-          <a href="chainStitch.html">Chain</a>
-          <a href="singleStitch.html">Single Crochet</a>
-          <a href="doubleStitch.html">Double Crochet</a>
-        </div>
+      <div class="dropdown-content">
+        <a href="chainStitch.html">Chain</a>
+        <a href="singleStitch.html">Single Crochet</a>
+        <a href="doubleStitch.html">Double Crochet</a>
+      </div>
     </div>
+
     <a class="nav-link" href="beginnerProjects.html">Beginner Projects</a>
     <a class="nav-link" href="contact.html">Contact</a>
   </nav>
-  <main class="grid">
-    <div class="welcome">
-      <h2>Beginner Projects</h2>
-        <p>
-        Content
-        </p>
-    </div>
-    <div class="welcome">
-      <h3>Content</h3>
-        <p>
-        Content
-        </p>
 
-      <ul class="list">
-        <li>Content</li>
-        <li>Content</li>
-        <li>Content</li>
-        <li>Content</li>
-      </ul>
-    </div>
-    <div>
-     <img src="images/CrochetSupplies.png" alt="Crochet Supplies">
-    </div>
+  <main>
+    <section class="projects-intro">
+      <h1>Beginner Crochet Projects</h1>
+      <p>
+        Ready to start your first crochet project? These beginner-friendly ideas
+        use simple stitches and are perfect for practicing your skills.
+        Click any project to view the full tutorial.
+      </p>
+    </section>
+
+    <section class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <a href="https://www.youtube.com/watch?v=example1" target="_blank">
+          <img src="images/scarf.png" alt="Beginner crochet scarf">
+          <h2>Beginner Scarf</h2>
+        </a>
+        <p>Difficulty: Easy</p>
+        <p>Stitches: Chain, Single Crochet</p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <a href="https://www.youtube.com/watch?v=example2" target="_blank">
+          <img src="images/dishcloth.png" alt="Crochet dishcloth">
+          <h2>Simple Dishcloth</h2>
+        </a>
+        <p>Difficulty: Easy</p>
+        <p>Stitches: Chain, Single Crochet</p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <a href="https://www.youtube.com/watch?v=example3" target="_blank">
+          <img src="images/grannySquare.png" alt="Crochet granny square">
+          <h2>Granny Square</h2>
+        </a>
+        <p>Difficulty: Beginner</p>
+        <p>Stitches: Chain, Double Crochet</p>
+      </div>
+
+    </section>
   </main>
+
   <footer>
-    <p>Hook & Learn © 2026  |  Created by Brittany Best  |  Email: crochet@hookandlearn.com</p>
+    <p>Hook & Learn © 2026 | Created by Brittany Best | Email: crochet@hookandlearn.com</p>
   </footer>
 </body>
 </html>
