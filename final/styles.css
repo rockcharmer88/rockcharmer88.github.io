@@ -363,8 +363,8 @@ caption > p{
 
 .project-card img {
   width: 100%;
-  height: 250px;       /* controls height */
-  object-fit: cover;   /* crops nicely without stretching */
+  height: 250px;       
+  object-fit: cover;   
   border-radius: 8px;
 }
 
